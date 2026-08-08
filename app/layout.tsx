@@ -14,8 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dr. Juan Manuel Fernández | Abogado",
-  description: "Asesoramiento jurídico integral",
+  title: "Juan Manuel Fernández | Abogado",
+  description: "Abogado en Santa Fe...",
+  verification: {
+    google: "3qkD8WGONgoIrknObVouhDew-pqxB52WvB_dGMzUocc",
+  },
 };
 
 export default function RootLayout({
