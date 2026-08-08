@@ -36,7 +36,7 @@ export default function Team() {
             </div>
 
 
-            <h3 className="mt-6 text-2xl font-bold text-center">
+            <h3 className="mt-6 text-2xl font-bold text-center text-slate-900">
               JUAN MANUEL FERNÁNDEZ
             </h3>
 
@@ -56,7 +56,7 @@ export default function Team() {
               Diplomado en Gestión Legislativa por el Honorable Senado de la
               Nación con aval académico de la Universidad Nacional de Córdoba.
               Actualmente cursa la Especialización en Políticas Públicas de la
-              Niñez, Adolescencia y Familia; Licienciatura en Ciencia Política;
+              Niñez, Adolescencia y Familia; Licenciatura en Ciencia Política;
               Tecnicatura en Gestión e Innovación Pública en la Universidad 
               Nacional de Entre Ríos.
             </p>
@@ -78,8 +78,8 @@ export default function Team() {
             </div>
 
 
-            <h3 className="mt-6 text-2xl font-bold text-center">
-              YAMILA EVA MARTÍNEZ
+           <h3 className="mt-6 text-2xl font-bold text-center text-slate-900">
+              EVA YAMILA MARTÍNEZ
             </h3>
 
             <p className="text-center text-yellow-600 font-semibold mt-2">
@@ -90,7 +90,7 @@ export default function Team() {
             <p className="mt-6 text-gray-600 leading-relaxed">
               Estudiante avanzada de la carrera de Abogacía de la Facultad de
               Ciencias Jurídicas y Sociales de la Universidad Nacional del
-              Litoral, donde obtuvo el título intermedio de Bachiller en
+              Litoral, donde obtuvo el título de Bachiller en
               Ciencias Jurídicas y Sociales.
 
               <br /><br />
