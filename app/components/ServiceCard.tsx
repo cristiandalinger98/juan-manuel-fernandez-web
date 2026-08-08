@@ -18,7 +18,7 @@ export default function ServiceCard({
   return (
     <div
       onClick={() => setExpanded(!expanded)}
-      className="min-h-64 cursor-pointer rounded-2xl bg-slate-800 p-8 text-center shadow-xl transition-all duration-500 hover:shadow-2xl"
+      className="min-h-72 cursor-pointer rounded-2xl bg-slate-800 p-8 text-center shadow-xl transition-all duration-500 hover:shadow-2xl"
     >
       <div className="flex min-h-48 flex-col items-center justify-center">
         <h3 className="text-2xl font-bold text-yellow-400">
@@ -28,7 +28,7 @@ export default function ServiceCard({
         <div
           className={`overflow-hidden transition-all duration-500 ${
             expanded
-              ? "mt-5 max-h-40 opacity-100"
+              ? "mt-5 max-h-96 opacity-100"
               : "max-h-0 opacity-0"
           }`}
         >
