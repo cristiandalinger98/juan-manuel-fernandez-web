@@ -17,7 +17,10 @@ export const metadata: Metadata = {
   title: "Juan Manuel Fernández | Abogado",
   description: "Abogado en Santa Fe...",
   verification: {
-    google: "3qkD8WGONgoIrknObVouhDew-pqxB52WvB_dGMzUocc",
+    google: [
+      "3qkD8WGONgoIrknObVouhDew-pqxB52WvB_dGMzUocc",
+      "g987xBvQfa-6YHAjBcqWz-gimBqs6FpFgMyJTQ3QfAM",
+    ],
   },
 };
 
@@ -31,10 +34,7 @@ export default function RootLayout({
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body>
-        <Navbar />
-        {children}
-      </body>
+      {children}
     </html>
   );
 }
