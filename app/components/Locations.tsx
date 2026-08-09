@@ -26,27 +26,28 @@ export default function Locations() {
   ];
 
   return (
-    <section id="localidades" className="py-20 px-6 bg-slate-950 text-white">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-20 px-6 bg-slate-950 text-white">
+      <div className="max-w-5xl mx-auto">
 
         {/* ENCABEZADO */}
         <div className="text-center max-w-3xl mx-auto">
 
           <p className="text-sm uppercase tracking-[0.25em] text-yellow-500 font-semibold">
-            Ámbito de atención
+            Abogado en Santa Fe y Entre Ríos
           </p>
 
           <h2 className="mt-4 text-4xl md:text-5xl font-bold">
-            Acompañamos tu caso
+            Asesoramiento jurídico
             <br />
             <span className="italic font-serif font-normal">
-              estés donde estés
+              cerca de vos
             </span>
           </h2>
 
           <p className="mt-6 text-gray-300 text-lg leading-relaxed">
-            Brindamos asesoramiento y representación jurídica en distintas
-            localidades de las provincias de Santa Fe y Entre Ríos.
+            Juan Manuel Fernández brinda asesoramiento y representación legal
+            en San Carlos Centro, Santa Fe y distintas localidades de la región,
+            con atención presencial y a distancia.
           </p>
 
         </div>
@@ -67,7 +68,7 @@ export default function Locations() {
               <div>
 
                 <p className="text-sm uppercase tracking-widest text-gray-400">
-                  Provincia de
+                  Abogado en
                 </p>
 
                 <h3 className="text-2xl font-bold">
@@ -94,7 +95,7 @@ export default function Locations() {
 
                   {index === 0 && (
                     <span className="ml-2 text-xs text-yellow-500">
-                      Casa central
+                      Atención principal
                     </span>
                   )}
                 </span>
@@ -185,7 +186,8 @@ export default function Locations() {
         <div className="mt-12 text-center">
 
           <p className="text-gray-400">
-            Atención presencial y asesoramiento a distancia.
+            Atención presencial en San Carlos Centro y asesoramiento a distancia
+            para clientes de Santa Fe, Entre Ríos y otras provincias.
           </p>
 
         </div>
