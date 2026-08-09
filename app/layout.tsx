@@ -14,8 +14,6 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Juan Manuel Fernández | Abogado",
-export const metadata: Metadata = {
   title: "Juan Manuel Fernández | Abogado en Santa Fe",
   description:
     "Juan Manuel Fernández, abogado matriculado en Santa Fe y Entre Ríos. Asesoramiento y representación legal en distintas áreas del derecho.",
@@ -27,9 +25,9 @@ export const metadata: Metadata = {
     "abogado en Santa Fe",
     "asesoramiento legal",
   ],
-verification: {
-  google: "g987xBvQfa-6YHAjBcqWz-gimBqs6FpFgMyJTQ3QfAM",
-},
+  verification: {
+    google: "g987xBvQfa-6YHAjBcqWz-gimBqs6FpFgMyJTQ3QfAM",
+  },
   openGraph: {
     title: "Juan Manuel Fernández | Abogado en Santa Fe",
     description:
