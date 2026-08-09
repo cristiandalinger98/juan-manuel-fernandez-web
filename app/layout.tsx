@@ -15,12 +15,31 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Juan Manuel Fernández | Abogado",
-  description: "Abogado en Santa Fe...",
+  ```tsx
+export const metadata: Metadata = {
+  title: "Juan Manuel Fernández | Abogado en Santa Fe",
+  description:
+    "Juan Manuel Fernández, abogado matriculado en Santa Fe y Entre Ríos. Asesoramiento y representación legal en distintas áreas del derecho.",
+  keywords: [
+    "Juan Manuel Fernández abogado",
+    "abogado Santa Fe",
+    "abogado San Carlos Centro",
+    "abogado Santa Fe y Entre Ríos",
+    "abogado en Santa Fe",
+    "asesoramiento legal",
+  ],
   verification: {
     google: [
       "3qkD8WGONgoIrknObVouhDew-pqxB52WvB_dGMzUocc",
       "g987xBvQfa-6YHAjBcqWz-gimBqs6FpFgMyJTQ3QfAM",
     ],
+  },
+  openGraph: {
+    title: "Juan Manuel Fernández | Abogado en Santa Fe",
+    description:
+      "Abogado matriculado en Santa Fe y Entre Ríos. Asesoramiento y representación legal.",
+    type: "website",
+    locale: "es_AR",
   },
 };
 
