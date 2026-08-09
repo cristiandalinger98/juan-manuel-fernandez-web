@@ -6,8 +6,23 @@ import ServiceCard from "./components/ServiceCard";
 
 export default function Home() {
   return (
-    <main>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Juan Manuel Fernández",
+            jobTitle: "Abogado",
+            description:
+              "Abogado matriculado en Santa Fe y Entre Ríos.",
+            url: "https://juanmanuelfernandez.vercel.app",
+          }),
+        }}
+      />
 
+      <main>
       {/* HERO */}
       <section className="min-h-[calc(100vh-6rem)] bg-slate-950 text-white flex items-center px-6 py-16">
         <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
@@ -178,9 +193,10 @@ export default function Home() {
       <Contact />
 
 
-      {/* WHATSAPP */}
-      <WhatsAppButton />
+  {/* WHATSAPP */}
+  <WhatsAppButton />
 
-    </main>
+      </main>
+    </>
   );
 }
