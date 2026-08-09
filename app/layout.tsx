@@ -15,7 +15,6 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Juan Manuel Fernández | Abogado",
-  ```tsx
 export const metadata: Metadata = {
   title: "Juan Manuel Fernández | Abogado en Santa Fe",
   description:
@@ -28,12 +27,9 @@ export const metadata: Metadata = {
     "abogado en Santa Fe",
     "asesoramiento legal",
   ],
-  verification: {
-    google: [
-      "3qkD8WGONgoIrknObVouhDew-pqxB52WvB_dGMzUocc",
-      "g987xBvQfa-6YHAjBcqWz-gimBqs6FpFgMyJTQ3QfAM",
-    ],
-  },
+verification: {
+  google: "g987xBvQfa-6YHAjBcqWz-gimBqs6FpFgMyJTQ3QfAM",
+},
   openGraph: {
     title: "Juan Manuel Fernández | Abogado en Santa Fe",
     description:
