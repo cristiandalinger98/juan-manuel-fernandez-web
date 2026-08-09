@@ -30,9 +30,9 @@ export default function Home() {
           {/* TEXTO */}
           <div>
 
-            <p className="text-sm uppercase tracking-[0.3em] text-yellow-500 font-semibold">
-              Estudio jurídico
-            </p>
+           <p className="text-sm uppercase tracking-[0.3em] text-yellow-500 font-semibold">
+  Abogado en Santa Fe y Entre Ríos
+</p>
 
             <h1 className="mt-5 text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
               Dr. Juan Manuel
@@ -44,17 +44,17 @@ export default function Home() {
 
               <span className="h-px w-12 bg-yellow-500"></span>
 
-              <p className="text-xl text-gray-300">
-                Abogado
-              </p>
+            <p className="text-xl text-gray-300">
+  Abogado matriculado
+</p>
 
             </div>
 
-            <p className="mt-7 text-lg md:text-xl text-gray-300 leading-relaxed max-w-xl">
-              Asesoramiento jurídico integral, atención personalizada
-              y compromiso profesional para encontrar la mejor solución
-              para cada caso.
-            </p>
+        <p className="mt-7 text-lg md:text-xl text-gray-300 leading-relaxed max-w-xl">
+  Asesoramiento y representación legal en Santa Fe y Entre Ríos,
+  con atención personalizada en San Carlos Centro y otras
+  localidades de la región.
+</p>
 
             <div className="mt-9 flex flex-wrap gap-4">
 
